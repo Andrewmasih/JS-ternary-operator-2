@@ -3,7 +3,7 @@
 
 /* below is an example of TARNARY operator */
 
-/* let someVarible;  */
+/* let someVarible; TRY CHANGING THE AGE, and see the result  */
 let age = 20;
 /* (testcondition) ? value if TRUE : value if FALSE; */
 (age > 18) ?  "You can now apply for your driving licence": "You are too young to apply for your driving licence";
