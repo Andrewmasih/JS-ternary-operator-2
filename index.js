@@ -1,13 +1,16 @@
 
 /* since 25 is greater than 18 the first expression will run,we could of wriiten the same code for 'if' 'else' statement */
 
-let age = 25;
+/* below is an example of TARNARY operator */
 
-(age > 18) ?  "You are soooo mature": "You are still a child";
+/* let someVarible;  */
+let age = 20;
+/* (testcondition) ? value if TRUE : value if FALSE; */
+(age > 18) ?  "You can now apply for your driving licence": "You are too young to apply for your driving licence";
 
 // The code below is the same logic but written longhand
-if (age > 30) {
-  "You are soooo mature"
+if (age > 18) {
+  "You can now apply for your driving licence"
 } else {
-  "You are still a child"
-}
+  "You are too young to apply for your driving licence"
+};
